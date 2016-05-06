@@ -6,3 +6,10 @@ Flower is a web based tool for monitoring and administrating Celery clusters. Gi
 # Usage
 
     docker -e "BROKER_URL=amqp://user:password@mq.example.com" run -d tomologic/flower
+
+# With custom API URL
+If using a non standard API URL, such as CloudAMQP, then the API URL can be set explicitly
+
+    docker -e "BROKER_URL=amqp://user:password@mq.example.com" \
+           -e "BROKER_API=http://user:password@mq.example.com:15672/api/" \
+           run -d tomologic/flower
