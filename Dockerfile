@@ -11,4 +11,4 @@ COPY requirements.txt /usr/src/app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY run.sh /usr/src/app/
-CMD ["/bin/sh", "run.sh"]
+CMD ["/usr/src/app/run.sh"]
