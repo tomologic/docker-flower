@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 BROKER_URL=${BROKER_URL:-amqp://guest:guest@rabbitmq//}
 BROKER_API=${BROKER_API}
