@@ -1,4 +1,4 @@
-celery==3.1.23
+celery==3.1.25  # Read changelog before Celery 4 upgrade
 flower==0.9.1
 redis==2.10.5
 hiredis==0.2.0
