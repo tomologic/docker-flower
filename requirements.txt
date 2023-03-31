@@ -1,4 +1,4 @@
 celery==5.2.3
 flower==1.0.0
-redis==4.1.4
+redis==4.4.4
 hiredis==2.0.0
